@@ -1,6 +1,3 @@
-package com.genspark;
-
-import com.genspark.Extract_Int_Value;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -16,12 +13,12 @@ public class SortInput {
         //for every line use function to get int val
         //Arraylist and text file are parallel
         //sort int array and string array together
-        BufferedReader br = new BufferedReader(new FileReader("TextInput"));
-            String line;
-            while ((line = br.readLine()) != null) {
-                list.add(line);
-                intList.add(Extract_Int_Value.extract_html(line));
-            }
+        BufferedReader br = new BufferedReader(new FileReader(".idea/TextInput"));
+        String line;
+        while ((line = br.readLine()) != null) {
+            list.add(line);
+            intList.add(Extract_Int_Value.extract_html(line));
+        }
 
         int total = intList.get(0);
         for (int i = 1; i < intList.size(); i++) {
