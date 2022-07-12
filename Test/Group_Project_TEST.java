@@ -1,3 +1,4 @@
+import com.genspark.Extract_Int_Value;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -12,9 +13,7 @@ import static org.junit.jupiter.api.Assertions.*;
  * Test Class for Extract_Int_Value
  */
 class Group_Project_TEST {
-    /**
-     * Created with static methods, Do not need to make an Instance of the class.
-     */
+    Extract_Int_Value extractValue = new Extract_Int_Value();
     @BeforeEach
     void setUp() {
     }
