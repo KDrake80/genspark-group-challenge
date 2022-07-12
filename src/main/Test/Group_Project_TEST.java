@@ -1,3 +1,4 @@
+import Project.Extract_Int_Value;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -10,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
 /**
  * Authors: Affan Fareed, Alonso del Arte, Jacob Stout, Kevin Drake, Steven Lofquist
  * 7/11/22
- * Test Class for Extract_Int_Value
+ * Test Class for Project.Extract_Int_Value
  */
 class Group_Project_TEST {
     /**

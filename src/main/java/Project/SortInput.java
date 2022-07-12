@@ -1,3 +1,9 @@
+<<<<<<< Updated upstream:src/SortInput.java
+=======
+package Project;
+
+import Project.Extract_Int_Value;
+>>>>>>> Stashed changes:src/main/java/Project/SortInput.java
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -13,7 +19,11 @@ public class SortInput {
         //for every line use function to get int val
         //Arraylist and text file are parallel
         //sort int array and string array together
+<<<<<<< Updated upstream:src/SortInput.java
         BufferedReader br = new BufferedReader(new FileReader(".idea/TextInput"));
+=======
+        BufferedReader br = new BufferedReader(new FileReader("TextInput"));
+>>>>>>> Stashed changes:src/main/java/Project/SortInput.java
         String line;
         while ((line = br.readLine()) != null) {
             list.add(line);
