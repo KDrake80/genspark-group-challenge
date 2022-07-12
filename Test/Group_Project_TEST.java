@@ -9,6 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 /**
  * Authors: Affan Fareed, Alonso del Arte, Jacob Stout, Kevin Drake, Steven Lofquist
  * 7/11/22
+ * Test Class for Extract_Int_Value
  */
 class Group_Project_TEST {
     /**
