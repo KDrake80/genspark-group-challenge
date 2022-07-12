@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.genspark.fx.Controller">
+    <TableView fx:id="tableView" layoutX="35" layoutY="28" prefHeight="200" prefWidth="300">
+        <columns>
+            <TableColumn fx:id="numbersId" text="NumbersId"/>
+        </columns>
+    </TableView>
+</VBox>
