@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
 /**
  * Authors: Affan Fareed, Alonso del Arte, Jacob Stout, Kevin Drake, Steven Lofquist
  * 7/11/22
- * Test Class for Project.Extract_Int_Value
+ * Test Class for Extract_Int_Value
  */
 class Group_Project_TEST {
     /**
@@ -53,7 +53,9 @@ class Group_Project_TEST {
         assertEquals("Twenty", SortInput.sortInput().get(SortInput.sortInput().size() - 1), "Test 4: Failed");
     }
 
-
+    /**
+     *
+     */
     @AfterEach
     void tearDown() {
     }
