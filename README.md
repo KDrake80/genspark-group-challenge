@@ -3,9 +3,12 @@
 ## Motivation
 This program is our first group project. We were instructed to pick teams, and choose a challenge. We chose challenge 1: An Input File, that displays random strings. We will need to write this program to display the data in a Column Fashion. 
 ## How to Run
---N/A--
+```
+1. git clone repository in desired directory.
+2. Open in prefered text editor.
+```
 ## ScreenShot
---N/A--
+![Grid](GridScreenShot.PNG)
 ## Code Snippet
 --N/A--
 ## Tests

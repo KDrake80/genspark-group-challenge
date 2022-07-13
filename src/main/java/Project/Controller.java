@@ -16,6 +16,9 @@ public class Controller implements Initializable {
     ArrayList<Text> nodes;
     @FXML
     GridPane gridPane;
+
+
+
     @FXML
     public void initialize(URL url, ResourceBundle resourceBundle) {
         nodes = new ArrayList<>();
@@ -28,9 +31,17 @@ public class Controller implements Initializable {
             e.printStackTrace();
         }
         gridPane.setGridLinesVisible(true);
-        gridPane.setPadding(new Insets(5, 5, 5,5));
-        for (int i = 0; i < 10; i++) {
-            gridPane.addRow(i, nodes.get(i), nodes.get(i + 10));
+        gridPane.setPadding(new Insets(2, 5, 2,5));
+
+        int x=0, y=0;
+
+        for (int i = 0; i < nodes.size(); i++) {
+            gridPane.add(nodes.get(i), x, y);
+            y++;
+            if(y % 10 == 0){
+               x++;
+               y=0;
+            }
         }
     }
 }

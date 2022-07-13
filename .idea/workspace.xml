@@ -5,16 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8a95c5d-6ac0-48ac-90bc-480e27bbd6d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/group_one/fx/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/group_one/fx/NumberModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/group_one/fx/mainscene.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/group_one/fx/mainview.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GridScreenShot.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Test/Group_Project_TEST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Test/Group_Project_TEST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextInput" beforeDir="false" afterPath="$PROJECT_DIR$/TextInput" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Project/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Project/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Project/SortInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Project/SortInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/group_one/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/group_one/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/group_one/fx/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/group_one/fx/NumberModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/group_one/fx/mainscene.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/group_one/fx/mainview.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Project/Group_Project.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Project/Group_Project.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/group_one/hello-view.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +50,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2Bns9wF6iWUMKmDJyFz70s4oZpV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -62,7 +71,8 @@
     "last_opened_file_path": "C:/Users/LofSt/Desktop/genspark-group-challenge/src/main/java/com/group_one",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -70,6 +80,7 @@
       <recent name="C:\Users\LofSt\Desktop\genspark-group-challenge\src\main\java\com\group_one" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\LofSt\Desktop\genspark-group-challenge" />
       <recent name="C:\Users\kevin\OneDrive\Desktop\GroupProject" />
       <recent name="C:\Users\kevin\OneDrive\Desktop\GroupProject\.idea" />
     </key>
@@ -80,10 +91,10 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Group_Project_TEST">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.group_one.HelloApplication" />
-      <module name="genspark-group-challenge" />
+      <option name="MAIN_CLASS_NAME" value="Project.RunApplication" />
+      <module name="Group_One" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
