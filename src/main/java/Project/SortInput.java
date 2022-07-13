@@ -10,20 +10,20 @@ import java.util.ArrayList;
 //import java.util.Collections;
 
 public class SortInput {
-    public static ArrayList<String> sortInput() throws IOException {
+    public static ArrayList<String> sortInput(String path) throws IOException {
         ArrayList<String> list = new ArrayList<>();
         ArrayList<Integer> intList = new ArrayList<>();
         //read text file
         //for every line use function to get int val
         //Arraylist and text file are parallel
         //sort int array and string array together
-        BufferedReader br = new BufferedReader(new FileReader("TextInput"));
+        BufferedReader br = new BufferedReader(new FileReader(path));
         String line;
         while ((line = br.readLine()) != null) {
             list.add(line);
-//            Turned of for quick rendering purposes
 //            intList.add(Extract_Int_Value.extract_html(line));
         }
+
 //        int total = intList.get(0);
 //        for (int i = 1; i < intList.size(); i++) {
 //            total = total + intList.get(i);

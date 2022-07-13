@@ -5,27 +5,59 @@ import javafx.fxml.Initializable;
 import javafx.geometry.Insets;
 import javafx.scene.layout.GridPane;
 import javafx.scene.text.Text;
+import javafx.stage.FileChooser;
+
+import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.ResourceBundle;
 
-public class Controller implements Initializable {
+//public class Controller implements Initializable {
+//    List<String> sortedList;
+//    ArrayList<Text> nodes;
+//    @FXML
+//    GridPane gridPane;
+//
+//    @FXML
+//    public void initialize(URL url, ResourceBundle resourceBundle) {
+//        nodes = new ArrayList<>();
+//        try {
+//            sortedList = SortInput.sortInput().stream().toList();
+//            for (String s:sortedList) {
+//                nodes.add(new Text("  "+ s +"  "));
+//            }
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//        gridPane.setGridLinesVisible(true);
+//        gridPane.setPadding(new Insets(2, 5, 2,5));
+//
+//        int x=0, y=0;
+//
+//        for (int i = 0; i < nodes.size(); i++) {
+//            gridPane.add(nodes.get(i), x, y);
+//            y++;
+//            if(y % 10 == 0){
+//               x++;
+//               y=0;
+//            }
+//        }
+//    }
+public class Controller {
     List<String> sortedList;
     ArrayList<Text> nodes;
     @FXML
     GridPane gridPane;
 
-
-
     @FXML
-    public void initialize(URL url, ResourceBundle resourceBundle) {
+    public void displayList(String path) {
         nodes = new ArrayList<>();
         try {
-            sortedList = SortInput.sortInput().stream().toList();
+            sortedList = SortInput.sortInput(path).stream().toList();
             for (String s:sortedList) {
-                nodes.add(new Text("\t" + s));
+                nodes.add(new Text("  "+ s +"  "));
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -43,5 +75,17 @@ public class Controller implements Initializable {
                y=0;
             }
         }
+    }
+
+    public String openFileExplorer() {
+        FileChooser fc = new FileChooser();
+        File selectedFile = fc.showOpenDialog(null);
+//        System.out.println(selectedFile.getAbsoluteFile());
+
+        System.out.println(selectedFile.getAbsoluteFile());
+
+        displayList(String.valueOf(selectedFile.getAbsoluteFile()));
+
+        return "";
     }
 }
