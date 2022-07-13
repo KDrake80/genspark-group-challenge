@@ -12,7 +12,7 @@ public class RunApplication extends Application {
     public void start(Stage primaryStage) throws IOException {
         URL fxmlLocation = getClass().getResource("Group_Project.fxml");
         FXMLLoader fxml = new FXMLLoader(fxmlLocation);
-        Scene scene = new Scene(fxml.load(), 400, 400 );
+        Scene scene = new Scene(fxml.load());
         primaryStage.setTitle("Challenge 1");
         primaryStage.setScene(scene);
         primaryStage.show();
