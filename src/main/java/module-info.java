@@ -1,4 +1,4 @@
-module com.group_one {
+module com.Project {
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.web;
@@ -11,8 +11,6 @@ module com.group_one {
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
 
-    opens com.group_one to javafx.fxml;
-    exports com.group_one;
-    exports Project;
     opens Project to javafx.fxml;
+    exports Project;
 }

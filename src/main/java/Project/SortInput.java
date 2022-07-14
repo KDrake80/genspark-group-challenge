@@ -7,6 +7,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
 //import java.util.Collections;
 
 public class SortInput {
@@ -40,7 +41,10 @@ public class SortInput {
 //                }
 //            }
 //        }
-//        return list;
+
+//        For loop crashes when using other files
+
+        Collections.sort(list);
         return list;
     }
 }
