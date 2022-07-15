@@ -34,16 +34,4 @@ public class Extract_Int_Value {
 
         return Integer.parseInt(output);
     }
-
-
-    // DEBUG
-    //    public static void main(String[] args) {
-    //     try {
-    //         System.out.println(extract_html("five"));
-    //     } catch (IOException io) {
-    //         System.out.println(io);
-    //     }
-    // }
-
-
 }

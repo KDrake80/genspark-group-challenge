@@ -10,7 +10,40 @@ This program is our first group project. We were instructed to pick teams, and c
 ## ScreenShot
 ![Grid](GridScreenShot.PNG)
 ## Code Snippet
---N/A--
+```Java
+public class Controller {
+    List<String> sortedList;
+    ArrayList<Text> nodes;
+    @FXML
+    GridPane gridPane;
+
+    @FXML
+    public void displayList(String path) {
+        nodes = new ArrayList<>();
+        try {
+            sortedList = SortInput.sortInput(path).stream().toList();
+            for (String s:sortedList) {
+                nodes.add(new Text("  "+ s +"  "));
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        gridPane.setGridLinesVisible(true);
+        gridPane.setPadding(new Insets(2, 5, 2,5));
+
+        int x=0, y=0;
+
+        for (int i = 0; i < nodes.size(); i++) {
+            gridPane.add(nodes.get(i), x, y);
+            y++;
+            if(y % 10 == 0){
+               x++;
+               y=0;
+            }
+        }
+    }
+    
+   ```
 ## Tests
 --N/A--
 ## Contributors

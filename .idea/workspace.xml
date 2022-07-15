@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8a95c5d-6ac0-48ac-90bc-480e27bbd6d8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Project/SortInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Project/SortInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/Group_Project_TEST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/Group_Project_TEST.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,24 +45,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/LofSt/Desktop/genspark-group-challenge/src/main/java/com/group_one",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.47471264" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\LofSt\Desktop\genspark-group-challenge\src\main\java\com\group_one" />
@@ -77,7 +67,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortInput">
+  <component name="RunManager" selected="JUnit.Group_Project_TEST.testSortInputMethod">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Project.RunApplication" />
       <module name="Group_One" />
@@ -130,6 +120,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Group_Project_TEST.testHTMLExtractInt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Group_One" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Group_Project_TEST" />
+      <option name="METHOD_NAME" value="testHTMLExtractInt" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Group_Project_TEST.testSortInputMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Group_One" />
       <option name="PACKAGE_NAME" value="" />
@@ -146,13 +146,14 @@
       <item itemvalue="JUnit.Group_Project_TEST.testSortInputMethod" />
       <item itemvalue="JUnit.All in genspark-group-challenge" />
       <item itemvalue="JUnit.Group_Project_TEST" />
+      <item itemvalue="JUnit.Group_Project_TEST.testHTMLExtractInt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Group_Project_TEST.testSortInputMethod" />
+        <item itemvalue="JUnit.Group_Project_TEST.testHTMLExtractInt" />
         <item itemvalue="Application.SortInput" />
         <item itemvalue="JUnit.Group_Project_TEST" />
-        <item itemvalue="JUnit.Group_Project_TEST.testSortInputMethod" />
-        <item itemvalue="JUnit.All in genspark-group-challenge" />
         <item itemvalue="JUnit.All in genspark-group-challenge" />
       </list>
     </recent_temporary>

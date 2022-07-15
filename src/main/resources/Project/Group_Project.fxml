@@ -7,48 +7,35 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<BorderPane fx:id="border" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Project.Controller">
-   <top>
-      <GridPane fx:id="gridPane" alignment="CENTER" prefHeight="340.0" prefWidth="600.0" BorderPane.alignment="TOP_LEFT">
-        <rowConstraints>
-          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
-          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
-          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
-        </rowConstraints>
-         <columnConstraints>
-            <ColumnConstraints />
-            <ColumnConstraints />
-         </columnConstraints>
-      </GridPane>
-   </top>
-   <left>
-      <AnchorPane prefHeight="46.0" prefWidth="599.0" BorderPane.alignment="CENTER">
-         <children>
-            <Button fx:id="chooseFileBtn" layoutX="261.0" layoutY="11.0" mnemonicParsing="false" onAction="#openFileExplorer" text="Choose File" />
-         </children>
-      </AnchorPane>
-   </left>
-<!--   <top>-->
-<!--      <HBox alignment="CENTER" prefHeight="49.0" prefWidth="600.0" spacing="200.0" BorderPane.alignment="CENTER">-->
-<!--         <children>-->
-<!--            <Label text="Column 1">-->
-<!--               <font>-->
-<!--                  <Font name="System Bold" size="14.0" />-->
-<!--               </font>-->
-<!--            </Label>-->
-<!--            <Label text="Column 2">-->
-<!--               <font>-->
-<!--                  <Font name="System Bold" size="14.0" />-->
-<!--               </font>-->
-<!--            </Label>-->
-<!--         </children>-->
-<!--      </HBox>-->
-<!--   </top>-->
+<BorderPane fx:id="border" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="400.0" prefWidth="600.0"
+            xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Project.Controller">
+    <top>
+        <GridPane fx:id="gridPane" alignment="CENTER" prefHeight="340.0" prefWidth="600.0"
+                  BorderPane.alignment="TOP_LEFT">
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS"/>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS"/>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS"/>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS"/>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS"/>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS"/>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS"/>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS"/>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS"/>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS"/>
+            </rowConstraints>
+            <columnConstraints>
+                <ColumnConstraints/>
+                <ColumnConstraints/>
+            </columnConstraints>
+        </GridPane>
+    </top>
+    <left>
+        <AnchorPane prefHeight="46.0" prefWidth="599.0" BorderPane.alignment="CENTER">
+            <children>
+                <Button fx:id="chooseFileBtn" layoutX="261.0" layoutY="11.0" mnemonicParsing="false"
+                        onAction="#openFileExplorer" text="Choose File"/>
+            </children>
+        </AnchorPane>
+    </left>
 </BorderPane>

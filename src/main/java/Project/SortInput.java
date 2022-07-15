@@ -61,7 +61,7 @@ public class SortInput {
         sortInput("TextInput");
         long endTime = System.nanoTime();
 
-        long duration = (endTime - startTime);  //divide by 1000000 to get milliseconds.
+        long duration = (endTime - startTime);
         System.out.println(duration);
     }
 
