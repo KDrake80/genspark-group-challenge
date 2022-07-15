@@ -39,7 +39,6 @@ public class SortInput {
                     }
                 }
         );
-        System.out.println(intList);
 
 
         int total = intList.get(0);
