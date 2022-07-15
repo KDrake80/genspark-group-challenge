@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8a95c5d-6ac0-48ac-90bc-480e27bbd6d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/GridScreenShot.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/Group_Project_TEST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Group_Project_TEST.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextInput" beforeDir="false" afterPath="$PROJECT_DIR$/TextInput" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Test/Group_Project_TEST.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Project/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Project/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Project/SortInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Project/SortInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/group_one/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/group_one/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/group_one/fx/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/group_one/fx/NumberModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/group_one/fx/mainscene.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/group_one/fx/mainview.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Project/Group_Project.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Project/Group_Project.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/group_one/hello-view.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -14,6 +14,7 @@ public class SortInput {
     public static ArrayList<String> sortInput(String path) throws IOException {
         ArrayList<String> list = new ArrayList<>();
         ArrayList<Integer> intList = new ArrayList<>();
+        ArrayList<String> output = new ArrayList<>();
 
 
         BufferedReader br = new BufferedReader(new FileReader(path));
@@ -28,13 +29,14 @@ public class SortInput {
                 (l) -> {
                     try {
                         intList.add(Extract_Int_Value.extract_html(l));
+                        output.add(l);
                     } catch (IOException e) {
                         throw new RuntimeException(e);
                     }
                 }
         );
 
-        System.out.println(list);
+        System.out.println(output);
         System.out.println(intList);
         System.out.println("---------------------");
 
@@ -44,17 +46,17 @@ public class SortInput {
             total = total + intList.get(i);
             if (intList.get(i - 1) > intList.get(i)) {
                 Collections.swap(intList, i - 1, i);
-                Collections.swap(list, i - 1, i);
+                Collections.swap(output, i - 1, i);
                 for (int y = i - 1; y > 0; y--) {
                     if (intList.get(y - 1) > intList.get(y)) {
                         Collections.swap(intList, y - 1, y);
-                        Collections.swap(list, y - 1, y);
+                        Collections.swap(output, y - 1, y);
                     }
                 }
             }
         }
 
-        System.out.println(list);
+        System.out.println(output);
         System.out.println(intList);
 
         return list;
