@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8a95c5d-6ac0-48ac-90bc-480e27bbd6d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/group_one/fx/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/group_one/fx/NumberModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/group_one/fx/mainscene.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/group_one/fx/mainview.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Test/Group_Project_TEST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Test/Group_Project_TEST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Project/SortInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Project/SortInput.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +52,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/LofSt/Desktop/genspark-group-challenge/src/main/java/com/group_one",
+    "last_opened_file_path": "D:/GenSpark/projects/genspark-group-challenge",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2"
@@ -80,10 +73,23 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Group_Project_TEST">
+  <component name="RunManager" selected="Application.SortInput">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.group_one.HelloApplication" />
       <module name="genspark-group-challenge" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Project.SortInput" />
+      <module name="Group_One" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,12 +125,14 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.SortInput" />
       <item itemvalue="JUnit.Group_Project_TEST" />
       <item itemvalue="JUnit.Group_Project_TEST.testHTMLExtractInt" />
       <item itemvalue="JUnit.Group_Project_TEST.testSortInputMethod" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortInput" />
         <item itemvalue="JUnit.Group_Project_TEST" />
         <item itemvalue="JUnit.Group_Project_TEST.testSortInputMethod" />
         <item itemvalue="JUnit.Group_Project_TEST.testHTMLExtractInt" />
