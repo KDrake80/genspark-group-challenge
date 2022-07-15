@@ -52,7 +52,7 @@ public class SortInput {
             }
         }
 
-        return list;
+        return output;
     }
 
 
