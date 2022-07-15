@@ -1,7 +1,4 @@
-
 package Project;
-
-import Project.Extract_Int_Value;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -9,22 +6,30 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 
-
+/**
+ * Authors: Affan Fareed, Alonso del Arte, Jacob Stout, Kevin Drake, Moe Yassin, Setevn Lofquist
+ * Class to sort the List of Data retrieved from File
+ */
 public class SortInput {
+    /**
+     * Sorts the List of Data retrieved from File
+     *
+     * @param path, File Path
+     * @return ArrayList<String>, sorted version of unsorted list from File
+     * @throws IOException, File Exception
+     */
     public static ArrayList<String> sortInput(String path) throws IOException {
         ArrayList<String> list = new ArrayList<>();
         ArrayList<Integer> intList = new ArrayList<>();
         ArrayList<String> output = new ArrayList<>();
-
-
         BufferedReader br = new BufferedReader(new FileReader(path));
         String line;
-
 
         //POPULATE DATA SETS
         while ((line = br.readLine()) != null) {
             list.add(line);
         }
+
         list.parallelStream().forEach(
                 (l) -> {
                     try {
@@ -51,19 +56,6 @@ public class SortInput {
                 }
             }
         }
-
         return output;
     }
-
-
-    public static void main(String[] args) throws IOException {
-        long startTime = System.nanoTime();
-        sortInput("TextInput");
-        long endTime = System.nanoTime();
-
-        long duration = (endTime - startTime);
-        System.out.println(duration);
-    }
-
-
 }
