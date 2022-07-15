@@ -36,10 +36,6 @@ public class SortInput {
                 }
         );
 
-        System.out.println(output);
-        System.out.println(intList);
-        System.out.println("---------------------");
-
         //SORT DATA
         int total = intList.get(0);
         for (int i = 1; i < intList.size(); i++) {
@@ -55,9 +51,6 @@ public class SortInput {
                 }
             }
         }
-
-        System.out.println(output);
-        System.out.println(intList);
 
         return list;
     }
