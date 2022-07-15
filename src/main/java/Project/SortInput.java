@@ -8,25 +8,19 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.concurrent.ExecutorService;
+
 
 public class SortInput {
-    public static ArrayList<String> sortInput() throws IOException {
+    public static ArrayList<String> sortInput(String path) throws IOException {
         ArrayList<String> list = new ArrayList<>();
         ArrayList<Integer> intList = new ArrayList<>();
-        //read text file
-        //for every line use function to get int val
-        //Arraylist and text file are parallel
-        //sort int array and string array together
-        BufferedReader br = new BufferedReader(new FileReader("TextInput"));
+
+
+        BufferedReader br = new BufferedReader(new FileReader(path));
         String line;
 
 
-//        while ((line = br.readLine()) != null) {
-//            list.add(line);
-//            intList.add(Extract_Int_Value.extract_html(line));
-//        }
-
+        //POPULATE DATA SETS
         while ((line = br.readLine()) != null) {
             list.add(line);
         }
@@ -40,7 +34,11 @@ public class SortInput {
                 }
         );
 
+        System.out.println(list);
+        System.out.println(intList);
+        System.out.println("---------------------");
 
+        //SORT DATA
         int total = intList.get(0);
         for (int i = 1; i < intList.size(); i++) {
             total = total + intList.get(i);
@@ -55,13 +53,17 @@ public class SortInput {
                 }
             }
         }
+
+        System.out.println(list);
+        System.out.println(intList);
+
         return list;
     }
 
 
     public static void main(String[] args) throws IOException {
         long startTime = System.nanoTime();
-        sortInput();
+        sortInput("TextInput");
         long endTime = System.nanoTime();
 
         long duration = (endTime - startTime);  //divide by 1000000 to get milliseconds.
