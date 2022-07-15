@@ -11,7 +11,7 @@
 **4. Make sure you have JavaFX installed**
 **5. If all that is true, click run, click open file button**
 **6. Select (TextInput[TextInput.txt]) then data should be shown in column wise format**
-![Grid](GridScreenShot.PNG)
+![Grid](https://github.com/Cup-of-Java/genspark-group-challenge/blob/main/GroupScreenShot.png)
 ## Code Snippet
 *We chose this selection of code, because this is the Controller class. Without this, there would be no communication between FXML file, and program. This needs to be set up properly, as well as FXML file is pointing to this Controller.java, and RunApplication class is creating an Instance of FXMLLoader with fxml file.*
 ```Java
