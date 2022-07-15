@@ -6,9 +6,18 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Scanner;
 
+/**
+ * Authors: Affan Fareed, Alonso del Arte, Jacob Stout, Kevin Drake, Moe Yassin, Setevn Lofquist
+ * Class calls a URL to get the Literal Numeric Value of String value of Integer.
+ */
 public class Extract_Int_Value {
-
-
+    /**
+     * Calls in a String version of an Integer, Uses Internet to Find Numeric Value of Word
+     *
+     * @param numerical_word, String version of number (example: "One", "Two Hundred and Three"
+     * @return int, Actual Integer Value of word called
+     * @throws IOException, File Exception
+     */
     public static int extract_html(String numerical_word) throws IOException {
         //SET UP CONNECTION
         String USER_AGENT_ID = "Java/" + System.getProperty("java.version");
@@ -31,7 +40,6 @@ public class Extract_Int_Value {
                 break;
             }
         }
-
         return Integer.parseInt(output);
     }
 }
